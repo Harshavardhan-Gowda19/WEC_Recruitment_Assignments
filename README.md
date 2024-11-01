@@ -12,9 +12,9 @@ This repository contains my completed recruitment task, divided into four main s
 
 1.[ML- League_Tasks](#ML-League_Tasks)
    
-   - [ml-assignment-1.ipynb](#ml-assignment-1.ipynb)
-   - [ml-assignment-2.ipynb](#ml-assignment-2.ipynb)
-   - [ml-assignment-3.ipynb](#ml-assignment-3.ipynb)
+   - [ml-assignment-1.ipynb](#ml---assignment-1.ipynb)
+   - [ml-assignment-2.ipynb](#ml---assignment-2.ipynb)
+   - [ml-assignment-3.ipynb](#ml---assignment-3.ipynb)
 2. [Task 1 - Kaggle Competition](#task-1---kaggle-competition)
    - [Subtask 1.1 - DeepFake Model](#subtask-11---deepfake-model)
 3. [Task 2 - Underwater Image Enhancement Project](#task-2---underwater-image-enhancement-project)
