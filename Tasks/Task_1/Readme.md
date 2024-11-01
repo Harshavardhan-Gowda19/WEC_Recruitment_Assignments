@@ -15,7 +15,7 @@ This project combines CNNs with image processing techniques to detect DeepFake i
 The goal is to classify images as real or fake by enhancing traditional CNNs with feature extraction methods that capture edge and texture inconsistencies.
 
 ### 2. Model Architecture <a name="model-architecture"></a>
-- **CNN Layers**: Extract core features.
+- **Feature extraction**: Extract core features.
 - **Canny Edge Detection**: Highlights unnatural boundaries typical in fakes.
 - **LBP Texture Analysis**: Captures texture patterns, aiding in real vs. fake differentiation.
 - **SVM Classifier**: Consolidates features for final classification.
