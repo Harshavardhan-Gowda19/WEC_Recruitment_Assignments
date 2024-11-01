@@ -1,50 +1,47 @@
-ML-LEAGUE Assignments:
 ---
 
-# ML-League_Assignment-1
+# ML-League Assignment 1: Loan Repayment Prediction Model
 
-## Loan Repayment Prediction Model
+## Overview
 
-In this project, I developed a model to predict the likelihood of loan repayment by assessing critical features like gender, age, and annual income. Using these features as a foundation, I analyzed the data to better understand the characteristics of individuals more likely to fulfill their repayment obligations.
+In this project, I built a model to predict whether someone is likely to repay a loan. The prediction is based on key characteristics like gender, age, and annual income to understand who’s more likely to keep up with loan payments.
 
 ### Key Features
 
-- **Demographic Attributes**: Gender and age were analyzed to identify trends related to repayment patterns, providing initial insights into borrower profiles.
-- **Income Levels**: Annual income plays a significant role in repayment capabilities, as it is directly correlated to financial stability.
-- **Credit Scores**: The model incorporates three crucial features, *source_score_1*, *source_score_2*, and *source_score_3*, which function similarly to traditional credit scores. These scores serve as core indicators for evaluating a candidate’s repayment likelihood and proved essential in distinguishing high-risk individuals.
+- **Demographics**: By looking at gender and age, I explored any patterns that might affect loan repayment.
+- **Income**: Annual income is essential since it reflects a person's financial stability, which is linked to their ability to repay loans.
+- **Credit Scores**: I included three key score features (*source_score_1*, *source_score_2*, and *source_score_3*). These work similarly to credit scores, giving insights into the likelihood of repayment. They turned out to be very useful in identifying higher-risk individuals.
 
-### Model and Performance
+### Model and Results
 
-The model is built using a **Support Vector Machine (SVM)**, which achieved a commendable accuracy of **96%**. This strong performance underscores the model's effectiveness in assessing loan repayment probability based on selected features. The breakthrough came with the inclusion of the *source_score* columns, which provided critical insights akin to CIBIL scores used by banks to gauge creditworthiness.
+Using a **Support Vector Machine (SVM)** model, I achieved a strong accuracy of **96%**. This accuracy highlights how important the credit score columns are, acting much like a bank’s CIBIL score to predict loan repayment.
 
 ---
-# ML-League_Assignment-2
 
-## Malware Detection Model
+# ML-League Assignment 2: Malware Detection Model
 
-This project involves building a classification model aimed at detecting malware, leveraging a dataset that unfortunately exhibits significant class imbalance. Due to this imbalance, achieving high accuracy presented challenges, with the model’s accuracy ranging between **20% and 26%** despite various attempts to improve performance.
+## Overview
+
+This project focuses on creating a model to detect malware, but there’s a challenge: the dataset is highly imbalanced, with far fewer examples of malware than non-malware, making it tough for the model to perform well.
 
 ### Dataset and Challenges
 
-The dataset used for malware detection reflects a stark imbalance in class representation, which is common in real-world cybersecurity scenarios. Such imbalance can make it difficult for the model to accurately identify minority classes, leading to lower overall accuracy.
+The imbalance means the model finds it hard to detect malware accurately, as it’s trained on a lot more examples of non-malware than malware. This imbalance often results in lower accuracy.
 
 ### Model and Approach
 
-The model architecture here is simpler than others, focusing on efficiency while managing the limitations posed by the data. Various techniques, including resampling methods and class weights, were explored to mitigate the impact of imbalance, yet accuracy gains were constrained within a 20-26% range.
-
----
-Here's an enhanced README description for Assignment 3:
+To keep things simple, I built a straightforward model that focuses on efficiency. I tried techniques like adjusting class weights and resampling to handle the imbalance, but accuracy stayed between **20% and 26%**. This was a learning experience in how class imbalance affects model performance.
 
 ---
 
-# ML-League_Assignment-3
+# ML-League Assignment 3: Multi-Class Classification with CNN
 
-## CNN Classification Model for Multi-Class Classification
+## Overview
 
-This project involves building a Convolutional Neural Network (CNN) to classify data into **9 distinct classes**. While the model achieved an impressive **98% accuracy** on the training dataset, its performance on the validation dataset hovered around **60%**, suggesting a potential issue with overfitting.
+This project uses a Convolutional Neural Network (CNN) to classify images into **9 different classes**. The model performed well on the training set, achieving **98% accuracy**, but struggled with the validation set, where accuracy dropped to **60%**.
 
-### Model Architecture and Challenges
+### Model and Challenges
 
-The model was initially designed with a complex architecture to enhance its ability to learn intricate patterns within the data. However, this complexity likely contributed to overfitting, as evidenced by the substantial accuracy gap between training and validation sets. Given time constraints, reducing the model’s complexity wasn't feasible within this project phase, but it stands as a key area for future improvement.
+The model is quite complex to capture detailed patterns in the data, but this complexity may have caused overfitting, as shown by the gap between training and validation accuracy. Unfortunately, I didn’t have time to reduce the complexity, but this is definitely something to focus on for future improvement.
 
 ---
