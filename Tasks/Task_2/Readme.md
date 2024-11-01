@@ -65,8 +65,6 @@ Based on these results, we can conclude that:
 - The VAE (VAE_task2A) had the lowest performance among the three applicable models for underwater image enhancement.
 - The GAN trained on MNIST (GAN_task2B) was not directly applicable to underwater image enhancement but served as a learning exercise for GAN implementation.
 
-Here’s a refined version of your statement:
-
 ---
 
 The GAN architecture has shown promising results for underwater image enhancement in this task. However, I believe the diffusion model holds greater potential. Due to limited computational resources, I could only train the diffusion model for 10 epochs, whereas the GAN and other models received more extensive training. With sufficient training, the diffusion model may ultimately surpass the others in performance.
