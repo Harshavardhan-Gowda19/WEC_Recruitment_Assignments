@@ -9,8 +9,6 @@ In this project, I developed a model to predict the likelihood of loan repayment
 
 ### Key Features
 
-The model focuses on several important indicators:
-
 - **Demographic Attributes**: Gender and age were analyzed to identify trends related to repayment patterns, providing initial insights into borrower profiles.
 - **Income Levels**: Annual income plays a significant role in repayment capabilities, as it is directly correlated to financial stability.
 - **Credit Scores**: The model incorporates three crucial features, *source_score_1*, *source_score_2*, and *source_score_3*, which function similarly to traditional credit scores. These scores serve as core indicators for evaluating a candidate’s repayment likelihood and proved essential in distinguishing high-risk individuals.
