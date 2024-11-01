@@ -28,15 +28,25 @@ This repository contains my completed recruitment task, divided into four main s
 
 ---
 
-## ml-assignment-1.ipynb
+## ML- League_Tasks
+
+### ml-assignment-1.ipynb
 
 This model involves predicting the likelihood of loan defaults for a non-banking financial institution (NBFI) facing challenges due to increased defaults in its vehicle loan category. By analyzing various parameters that influence a borrower's repayment ability, the model aims to enhance the company's understanding of its clients and improve decision-making processes. Ultimately, the goal is to optimize financial performance through accurate assessments of loan repayment risks.
+
+### ml-assignment-2.ipynb
+
+The "Malware Attacks" dataset offers an in-depth look at various malware types, making it a valuable resource for cybersecurity researchers and data scientists developing detection and prevention models. Even after using the robust methods to extract the information out still could'nt able to figure out why did the model did'nt exceed the accuracy i.e 25%.
+
+### ml-assignment-2.ipynb
+
+This model emphasizes the exploration of hyperparameter tuning within the CNN architecture. It aims to enhance the model's performance through systematic experimentation. By adjusting various parameters, we can identify optimal configurations for better results.
 
 ## Task 1 - Kaggle Competition
 
 This task involved building computer vision provided datasets for a Kaggle competition. And the task is completed successfully.
 
-## Subtask 1.1 - Computer Vision
+### Subtask 1.1 - Computer Vision
 
 I developed a CNN model for **DeepFake detection** and initially assigned the wrong labels to the images. However, I was able to correct them with a straightforward logic after making predictions, which underscored the significance of proper initialization in the project.
 
