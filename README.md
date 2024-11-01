@@ -46,7 +46,7 @@ This model emphasizes the exploration of hyperparameter tuning within the CNN ar
 
 This task involved building computer vision provided datasets for a Kaggle competition. And the task is completed successfully.
 
-### Subtask 1.1 - Computer Vision
+### Subtask 1.1 - DeepFake Model
 
 I developed a CNN model for **DeepFake detection** and initially assigned the wrong labels to the images. However, I was able to correct them with a straightforward logic after making predictions, which underscored the significance of proper initialization in the project.
 
